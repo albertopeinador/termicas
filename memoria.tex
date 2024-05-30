@@ -1,0 +1,120 @@
+\documentclass[a4paper, 12pt, spanish]{article}
+
+\usepackage[left=2.3cm, right= 1.8cm, top=2.5cm, bottom=2.2cm]{geometry}
+\usepackage[es-tabla]{babel}
+\usepackage{float}
+\usepackage{tabto}
+\usepackage{inconsolata}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{amsmath}
+\usepackage{mathrsfs}
+\usepackage{mathtools, nccmath}
+\usepackage{index}
+\usepackage{listings}
+\usepackage{pdflscape}
+\usepackage{multicol}
+\usepackage{tikz}
+\usepackage{marginnote}
+\usepackage[format=plain,
+            labelfont={it,bf},
+            textfont=it, justification = centerlast]{caption}
+\usetikzlibrary{calc,patterns,arrows,shapes.arrows,intersections, decorations.pathmorphing}
+\usepackage[hidelinks, pdftex]{hyperref}
+\usepackage[nameinlink]{cleveref}
+\usepackage{subfig}
+\usepackage{booktabs}
+
+\setlength{\columnsep}{1cm}
+%\setlength{\columnseprule}{0.5pt}
+
+\newcommand{\rot}{\nabla\times}
+
+\crefname{table}{tabla}{tablas}
+\Crefname{table}{Tabla}{Tablas}
+\begin{document}
+\pagestyle{fancy}\setcounter{page}{1}
+\pagestyle{headings}
+\begin{center}
+\LARGE{\textbf{Propiedades Térmicas: Prácticas}} \rule{.9\textwidth}{.05cm}
+\end{center}
+\begin{flushright}
+Alberto Peinador Veiga,\\
+Universidad de Sevilla,\\
+\Today
+\end{flushright}
+
+\begin{multicols}{2}
+\section{Práctica 1: ciclo de histéresis.}
+En la \Cref{fig:t} se representan los resultados de campo eléctrico y polarización con respecto al tiempo.
+En ellos se ve como en todos los casos el campo eléctrico se mantiene independiente de la temperatura. La polarización si que tiene un respuesta diferente según la temperatura.\\
+A temperatura baja la forma de la curva es muy similar a la del campo eléctrico. Se podría decir que son proporcionales, lo que concuerda con un régimen paraeléctrico. A temperaturas mayores, la polarización aumenta rápidamente
+
+%     ###################    (SUB)TABLES EXAMPLES      ###################
+
+
+%\begin{table}[htpb]
+%    \centering
+%    \caption{Resumen de los picos observados en el espectro general.}
+%    \subfloat[Fotoelectrones]{%
+%        \begin{tabular}{ccc}
+%			\toprule
+%Elemento & Orbital & $E_B\ /\ eV$ \\ \midrule
+%Na & 1s & 1070 \\
+%Zn & 2p & 1020 \\
+%Cu & 2p & 930 \\
+%F & 1s & 683\\
+%O & 1s & 531\\
+%Ca & 2s & 438\\
+%C&1s&284.6 \\ 
+%Ar & 2p & 243\\
+%Mo & 3d & 230\\
+%Cu & 3s & 119\\
+%Cu & 3p & 74\\
+%\bottomrule
+%        \end{tabular}
+%        \label{tab:picos_ye}%
+%    }
+%    \qquad \ \qquad
+%    \subfloat[Electrones Auger]{%
+%        \begin{tabular}{ccc}
+%            \toprule
+%            Elemento & Transición & $K\ /\ eV$ \\ \midrule
+%             Mo & NMV & 186 \\
+%             C & KLL & 266\\
+%             O & KLL & 489\\
+%             F & KLL & 657\\
+%             Zn & LMM & 989\\
+%             Mg & KLL & 1179\\
+%            \bottomrule
+%        \end{tabular}
+%        \label{tab:picos_auger}%
+%    }
+%    \label{tab:picos}
+%\end{table}
+
+%     ###################    (SUB)FIGURES EXAMPLES      ###################
+
+%\begin{figure}[h!]
+  %\centering
+  %\subfloat[\label{fig:zona1A}]{%
+  %  \includegraphics[width=0.49\linewidth]{Espectros/esctro_zona1}
+  %}
+  %\hfill
+  %\subfloat[\label{fig:zona1B}]{%
+  %  \includegraphics[width=0.49\linewidth]{Espectros/esctro_zona1_B}
+  %}
+  %\caption{Espectros con mayor resolución en la zona del pico de Zn 2p en %energía cinética (a) y binding energy (b).}
+%  \label{fig:zona1}
+%\end{figure}
+
+
+%\bibliographystyle{my_bibstyle}
+%\bibliography{biblio.bib}
+
+
+
+\end{multicols}
+\end{document}
