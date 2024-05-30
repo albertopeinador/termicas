@@ -26,7 +26,7 @@
 \usepackage[nameinlink]{cleveref}
 \usepackage{subfig}
 \usepackage{booktabs}
-
+\usepackage{multirow}
 \setlength{\columnsep}{1cm}
 %\setlength{\columnseprule}{0.5pt}
 
@@ -50,8 +50,26 @@ Universidad de Sevilla,\\
 \section{Práctica 1: ciclo de histéresis.}
 En la \Cref{fig:t} se representan los resultados de campo eléctrico y polarización con respecto al tiempo.
 En ellos se ve como en todos los casos el campo eléctrico se mantiene independiente de la temperatura. La polarización si que tiene un respuesta diferente según la temperatura.\\
-A temperatura baja la forma de la curva es muy similar a la del campo eléctrico. Se podría decir que son proporcionales, lo que concuerda con un régimen paraeléctrico. A temperaturas mayores, la polarización aumenta rápidamente
+A temperatura baja la forma de la curva es muy similar a la del campo eléctrico. Se podría decir que son proporcionales, lo que concuerda con un régimen paraeléctrico. A temperaturas mayores, la polarización aumenta rápidamente en tiempos en los que el campo eléctrico es bajo hasta que llega a saturar. En el punto intermedio (\texttt{C6.DAT}) se puede percibir una combinación de ambas curvas.
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width = \linewidth]{/Users/albertopeinador/Desktop/Master/termicas/E-t.pdf}
+    \caption{Campo eléctrico y polarización como función del tiempo a distintas temperaturas.}\label{fig:t}
+\end{figure}
+La polarización remanente es la polarización cuando el campo eléctrico es nulo, mientras que el campo coercitivo es el campo eléctrico al que se anula la polarización. Para obtener estos parámetros se busca en los datos estos puntos, o en su defecto los más cercanos.
+
+\begin{table}[H]
+    \centering
+    \caption{Valores de $P_r$ y $E_c$ recogidos tanto para el TGS como para LATGS, calculados tomando la media entre los tres puntos más cercanos. Los valores se presentan en con las mismas unidades que en la \Cref{fig:t}.}\label{tab:Pr_ej1}
+    \begin{tabular}{cccc}\toprule
+    Muestra & Región & $P_r$ & $E_c$\\ \midrule
+    \multirow{2}*{TGS}& (+) & & \\
+    & (-) & & \\
+    \multirow{2}*{LATGS} & (+) & & \\
+    & (-) &&\\ \bottomrule     
+    \end{tabular}
+\end{table}
 %     ###################    (SUB)TABLES EXAMPLES      ###################
 
 
