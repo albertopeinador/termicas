@@ -302,8 +302,14 @@ INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/jknapltx/ursfs.fd
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/rsfs/rsfs5.tfm
+INPUT /Users/albertopeinador/Desktop/Master/termicas/Pr.pdf
+INPUT /Users/albertopeinador/Desktop/Master/termicas/Pr.pdf
+INPUT /Users/albertopeinador/Desktop/Master/termicas/Pr.pdf
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmsl12.tfm
 INPUT /usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map
+INPUT /Users/albertopeinador/Desktop/Master/termicas/Pr_2.pdf
+INPUT /Users/albertopeinador/Desktop/Master/termicas/Pr_2.pdf
+INPUT /Users/albertopeinador/Desktop/Master/termicas/Pr_2.pdf
 INPUT /Users/albertopeinador/Desktop/Master/termicas/memoria.aux
 INPUT /Users/albertopeinador/Desktop/Master/termicas/memoria.out
 INPUT /Users/albertopeinador/Desktop/Master/termicas/memoria.out
@@ -314,5 +320,8 @@ INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb

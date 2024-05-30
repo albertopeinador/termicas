@@ -57,19 +57,39 @@ A temperatura baja la forma de la curva es muy similar a la del campo eléctrico
     \includegraphics[width = \linewidth]{/Users/albertopeinador/Desktop/Master/termicas/E-t.pdf}
     \caption{Campo eléctrico y polarización como función del tiempo a distintas temperaturas.}\label{fig:t}
 \end{figure}
-La polarización remanente es la polarización cuando el campo eléctrico es nulo, mientras que el campo coercitivo es el campo eléctrico al que se anula la polarización. Para obtener estos parámetros se busca en los datos estos puntos, o en su defecto los más cercanos.
-
+La polarización remanente es la polarización cuando el campo eléctrico es nulo, mientras que el campo coercitivo es el campo eléctrico al que se anula la polarización. Para obtener estos parámetros se busca en los datos estos puntos, o en su defecto los más cercanos.\\
+También se han tomado datos en ambas regiones: campo coercitivo y polarización remanente en ambos sentidos. 
 \begin{table}[H]
     \centering
-    \caption{Valores de $P_r$ y $E_c$ recogidos tanto para el TGS como para LATGS, calculados tomando la media entre los tres puntos más cercanos. Los valores se presentan en con las mismas unidades que en la \Cref{fig:t}.}\label{tab:Pr_ej1}
-    \begin{tabular}{cccc}\toprule
-    Muestra & Región & $P_r$ & $E_c$\\ \midrule
-    \multirow{2}*{TGS}& (+) & & \\
-    & (-) & & \\
-    \multirow{2}*{LATGS} & (+) & & \\
-    & (-) &&\\ \bottomrule     
+    \caption{Valores de $P_r$ y $E_c$ recogidos tanto para el TGS como para LATGS, calculados tomando la media entre los tres puntos más cercanos. Los valores se presentan en con las mismas unidades que en la \Cref{fig:t} y la temperatura en Kelvin.}\label{tab:Pr_ej1}
+    \begin{tabular}{ccccc}\toprule
+    Muestra & Sentido & T &$P_r$ & $E_c$\\ \midrule
+    \multirow{6}*{TGS}& \multirow{3}*{(+)} & $310$ & $1.826$ & $799.3$\\
+                        &                   &$318.6$ & $0.535$ & $558.9$\\
+                        &                   &$324.6$ & $0.011$ & $149.2$\\ \cline{2-5}
+                        & \multirow{3}*{(-)} & $310$ & $-1.813$ & $-814.7$\\
+                        &                   &$318.6$ & $-0.522$ & $-554.7$\\
+                        &                   &$324.6$ & $-0.004$ & $-153.2$\\ \midrule
+    \multirow{2}*{LATGS} & (+) &$310$& $1.454$& $818.6$\\
+    & (-) &$310$&$-1.105$&$-1213.2$\\ \bottomrule     
     \end{tabular}
 \end{table}
+Los valores para el TGS se representan en la \Cref{fig:param1}, junto a ellas se representa también el cuadrado de la polarización remanente, que según la teoría de Landau debería ser lineal con la temperatura. Sin embargo, como se ve con tan solo estos 3 puntos, parece no serlo en este rango de temperaturas. Si hacemos este mismo análisis con todas las curvas proporcionadas (\Cref{fig:Pr2}) se comprueba que sí existe un régimen lineal.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width = \linewidth]{/Users/albertopeinador/Desktop/Master/termicas/Pr.pdf}
+    \caption{Polarización remanente (a) y campo coercitivo (b) frente a temperatura así como una comprobación de la teoría de Landau (c)}\label{fig:param1}
+\end{figure}
+Tanto en las \Cref{fig:param1,fig:Pr2} se aprecia la disminución de tanto el campo coercitivo como de la polarización remanente. Es decir, los ciclos se estrechan (reducción de campo coercitivo) y desaparece la polarización remanente, pasando entonces de un ciclo de histéresis a, esencialmente, una recta. La respuesta lineal se asocia a una fase paraeléctrica y la pérdida gradual de $P_r$ y $E_c$ parece indecar que se trata de una transición de segundo orden, ya que el ciclo no desaparece abruptamente.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width = \linewidth]{/Users/albertopeinador/Desktop/Master/termicas/Pr_2.pdf}
+    \caption{Mismo análisis que el de la \Cref{fig:param1} incluyendo todas las temperaturas}\label{fig:Pr2}
+\end{figure}
+
+Retomando los resultados resumidos en la \Cref{tab:Pr_ej1}, se observa que los ciclos del TGS están bastante centrados, ya que los valores son bastante independientes del sentido en que se midan.\\
+Por otra banda, el LATGS sí presenta un desplazamiento, al menos, en el campo eléctrico. Este desplazamiento es de $\Delta E = 394.6\ V\ cm^{-1}$ hacia el sentido negativo del campo. Este desplazamiento se explica como un campo eléctrico interno generado en el material.\\
+En cuanto al desplazamiento vertical del ciclo no es correcto calcularlo con la polarización remanente recogida en la \Cref{tab:Pr_ej1}, puesto que $\Delta E$ provoca una disminución (en valor absoluto) de la polarización remanente negativa. Para obtener este desplazamiento, lo más correcto es utilizar la polarización de saturación. Los valores de polarización de saturación se obtienen buscando el máximo y el mínimo del ciclo; los valores obtenidos han sido: $P_{sat,\ (-)} = -1.755\ \mu C\ cm^{-2}$ y $P_{sat,\ (+)} = 1.577\ \mu C\ cm^{-2}$. Resultando un desplazamiento de $\Delta P = -0.178\ \mu C\ cm^{-2}$.
 %     ###################    (SUB)TABLES EXAMPLES      ###################
 
 
@@ -124,7 +144,7 @@ La polarización remanente es la polarización cuando el campo eléctrico es nul
   %\subfloat[\label{fig:zona1B}]{%
   %  \includegraphics[width=0.49\linewidth]{Espectros/esctro_zona1_B}
   %}
-  %\caption{Espectros con mayor resolución en la zona del pico de Zn 2p en %energía cinética (a) y binding energy (b).}
+  %\caption{Espectros con mayor resolución en la zona del pico de Zn 2p en energía cinética (a) y binding energy (b).}
 %  \label{fig:zona1}
 %\end{figure}
 
