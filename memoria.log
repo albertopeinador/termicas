@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.2.22)  31 MAY 2024 11:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.2.22)  31 MAY 2024 12:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1032,198 +1032,237 @@ File: /Users/albertopeinador/Desktop/Master/termicas/Pr_2.pdf Graphic file (type
 <use /Users/albertopeinador/Desktop/Master/termicas/Pr_2.pdf>
 Package pdftex.def Info: /Users/albertopeinador/Desktop/Master/termicas/Pr_2.pdf  used on input line 86.
 (pdftex.def)             Requested size: 226.19933pt x 376.99713pt.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 94.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 94.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 94.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 94.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 94.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 94.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 98.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 98.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 98.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 98.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 98.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 98.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 98.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 98.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 98.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 98.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 98.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 98.
- [2 </Users/albertopeinador/Desktop/Master/termicas/Pr.pdf> </Users/albertopeinador/Desktop/Master/termicas/Pr_2.pdf>]
 
-pdfTeX warning: pdflatex (file /Users/albertopeinador/Desktop/Master/termicas/ctedie.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-</Users/albertopeinador/Desktop/Master/termicas/ctedie.pdf, id=153, 433.62pt x 433.62pt>
-File: /Users/albertopeinador/Desktop/Master/termicas/ctedie.pdf Graphic file (type pdf)
-<use /Users/albertopeinador/Desktop/Master/termicas/ctedie.pdf>
-Package pdftex.def Info: /Users/albertopeinador/Desktop/Master/termicas/ctedie.pdf  used on input line 104.
+
+pdfTeX warning: pdflatex (file /Users/albertopeinador/Desktop/Master/termicas/Ps.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+</Users/albertopeinador/Desktop/Master/termicas/Ps.pdf, id=84, 433.62pt x 433.62pt>
+File: /Users/albertopeinador/Desktop/Master/termicas/Ps.pdf Graphic file (type pdf)
+<use /Users/albertopeinador/Desktop/Master/termicas/Ps.pdf>
+Package pdftex.def Info: /Users/albertopeinador/Desktop/Master/termicas/Ps.pdf  used on input line 96.
 (pdftex.def)             Requested size: 226.19933pt x 226.19827pt.
-</Users/albertopeinador/Desktop/Master/termicas/cw.pdf, id=156, 433.62pt x 433.62pt>
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 98.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 98.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 98.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 98.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 98.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 98.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 98.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 98.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 98.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 98.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 98.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 98.
+[2 </Users/albertopeinador/Desktop/Master/termicas/Pr.pdf> </Users/albertopeinador/Desktop/Master/termicas/Pr_2.pdf>]
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 99.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 99.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 99.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 99.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 99.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 99.
+
+
+pdfTeX warning: pdflatex (file /Users/albertopeinador/Desktop/Master/termicas/ctedie_2.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+</Users/albertopeinador/Desktop/Master/termicas/ctedie_2.pdf, id=155, 469.755pt x 433.62pt>
+File: /Users/albertopeinador/Desktop/Master/termicas/ctedie_2.pdf Graphic file (type pdf)
+<use /Users/albertopeinador/Desktop/Master/termicas/ctedie_2.pdf>
+Package pdftex.def Info: /Users/albertopeinador/Desktop/Master/termicas/ctedie_2.pdf  used on input line 109.
+(pdftex.def)             Requested size: 226.19933pt x 208.79688pt.
+</Users/albertopeinador/Desktop/Master/termicas/cw.pdf, id=158, 433.62pt x 433.62pt>
 File: /Users/albertopeinador/Desktop/Master/termicas/cw.pdf Graphic file (type pdf)
 <use /Users/albertopeinador/Desktop/Master/termicas/cw.pdf>
-Package pdftex.def Info: /Users/albertopeinador/Desktop/Master/termicas/cw.pdf  used on input line 115.
+Package pdftex.def Info: /Users/albertopeinador/Desktop/Master/termicas/cw.pdf  used on input line 120.
 (pdftex.def)             Requested size: 226.19933pt x 226.19827pt.
-</Users/albertopeinador/Desktop/Master/termicas/l.pdf, id=160, 462.52798pt x 346.89601pt>
-File: /Users/albertopeinador/Desktop/Master/termicas/l.pdf Graphic file (type pdf)
-<use /Users/albertopeinador/Desktop/Master/termicas/l.pdf>
-Package pdftex.def Info: /Users/albertopeinador/Desktop/Master/termicas/l.pdf  used on input line 126.
-(pdftex.def)             Requested size: 226.19933pt x 169.65234pt.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 128.
+(babel)             in language  on input line 123.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 128.
+(babel)             in language  on input line 123.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 128.
+(babel)             in language  on input line 123.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 128.
+(babel)             in language  on input line 123.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 128.
+(babel)             in language  on input line 123.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 128.
+(babel)             in language  on input line 123.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 128.
+(babel)             in language  on input line 123.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 128.
+(babel)             in language  on input line 123.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 128.
+(babel)             in language  on input line 123.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 128.
+(babel)             in language  on input line 123.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 128.
+(babel)             in language  on input line 123.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 128.
+(babel)             in language  on input line 123.
 [3pdfTeX warning (ext4): destination with the same identifier (name{equation.2.1}) has been already used, duplicate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
                                                   
-l.128 \end{figure}
-                   </Users/albertopeinador/Desktop/Master/termicas/ctedie.pdf>]
-</Users/albertopeinador/Desktop/Master/termicas/l_2fit.pdf, id=204, 462.52798pt x 346.89601pt>
+l.123 
+       </Users/albertopeinador/Desktop/Master/termicas/Ps.pdf> </Users/albertopeinador/Desktop/Master/termicas/ctedie_2.pdf
+
+pdfTeX warning: pdflatex (file /Users/albertopeinador/Desktop/Master/termicas/ctedie_2.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]pdfTeX warning (ext4): destination with the same identifier (name{equation.2.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.124 ...os parámetros de ajuste.\begin{eqnarray}
+                                                  pdfTeX warning (ext4): destination with the same identifier (name{equation.2.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.124 ...os parámetros de ajuste.\begin{eqnarray}
+                                                  pdfTeX warning (ext4): destination with the same identifier (name{equation.2.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.124 ...os parámetros de ajuste.\begin{eqnarray}
+                                                  pdfTeX warning (ext4): destination with the same identifier (name{equation.2.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.124 ...os parámetros de ajuste.\begin{eqnarray}
+                                                  
+</Users/albertopeinador/Desktop/Master/termicas/l.pdf, id=235, 462.52798pt x 346.89601pt>
+File: /Users/albertopeinador/Desktop/Master/termicas/l.pdf Graphic file (type pdf)
+<use /Users/albertopeinador/Desktop/Master/termicas/l.pdf>
+Package pdftex.def Info: /Users/albertopeinador/Desktop/Master/termicas/l.pdf  used on input line 131.
+(pdftex.def)             Requested size: 226.19933pt x 169.65234pt.
+</Users/albertopeinador/Desktop/Master/termicas/l_2fit.pdf, id=238, 462.52798pt x 346.89601pt>
 File: /Users/albertopeinador/Desktop/Master/termicas/l_2fit.pdf Graphic file (type pdf)
 <use /Users/albertopeinador/Desktop/Master/termicas/l_2fit.pdf>
-Package pdftex.def Info: /Users/albertopeinador/Desktop/Master/termicas/l_2fit.pdf  used on input line 131.
+Package pdftex.def Info: /Users/albertopeinador/Desktop/Master/termicas/l_2fit.pdf  used on input line 136.
 (pdftex.def)             Requested size: 226.19933pt x 169.65234pt.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 135.
+(babel)             in language  on input line 140.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 135.
+(babel)             in language  on input line 140.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 135.
+(babel)             in language  on input line 140.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 135.
+(babel)             in language  on input line 140.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 135.
+(babel)             in language  on input line 140.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 135.
-</Users/albertopeinador/Desktop/Master/termicas/ip.pdf, id=208, 433.62pt x 433.62pt>
+(babel)             in language  on input line 140.
+
+
+pdfTeX warning: pdflatex (file /Users/albertopeinador/Desktop/Master/termicas/ip.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+</Users/albertopeinador/Desktop/Master/termicas/ip.pdf, id=242, 433.62pt x 433.62pt>
 File: /Users/albertopeinador/Desktop/Master/termicas/ip.pdf Graphic file (type pdf)
 <use /Users/albertopeinador/Desktop/Master/termicas/ip.pdf>
-Package pdftex.def Info: /Users/albertopeinador/Desktop/Master/termicas/ip.pdf  used on input line 140.
+Package pdftex.def Info: /Users/albertopeinador/Desktop/Master/termicas/ip.pdf  used on input line 145.
 (pdftex.def)             Requested size: 226.19933pt x 226.19827pt.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 143.
+(babel)             in language  on input line 148.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 143.
+(babel)             in language  on input line 148.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 143.
+(babel)             in language  on input line 148.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 143.
+(babel)             in language  on input line 148.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 143.
+(babel)             in language  on input line 148.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 143.
+(babel)             in language  on input line 148.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 143.
+(babel)             in language  on input line 148.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 143.
+(babel)             in language  on input line 148.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 143.
+(babel)             in language  on input line 148.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 143.
+(babel)             in language  on input line 148.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 143.
+(babel)             in language  on input line 148.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 143.
- [4pdfTeX warning (ext4): destination with the same identifier (name{equation.2.2}) has been already used, duplicate ignored
-
-\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
-                                                  
-l.143 C
-       on los datos proporcionados se calcula el coeficiente piroeléctrica ... </Users/albertopeinador/Desktop/Master/termicas/cw.pdf> </Users/albertopeinador/Desktop/Master/termicas/l.pdf> </Users/albertopeinador/Desktop/Master/termicas/l_2fit.pdf>]
-</Users/albertopeinador/Desktop/Master/termicas/P.pdf, id=296, 505.89pt x 433.62pt>
+(babel)             in language  on input line 148.
+[4 </Users/albertopeinador/Desktop/Master/termicas/cw.pdf> </Users/albertopeinador/Desktop/Master/termicas/l.pdf> </Users/albertopeinador/Desktop/Master/termicas/l_2fit.pdf>]
+</Users/albertopeinador/Desktop/Master/termicas/P.pdf, id=329, 505.89pt x 433.62pt>
 File: /Users/albertopeinador/Desktop/Master/termicas/P.pdf Graphic file (type pdf)
 <use /Users/albertopeinador/Desktop/Master/termicas/P.pdf>
-Package pdftex.def Info: /Users/albertopeinador/Desktop/Master/termicas/P.pdf  used on input line 150.
+Package pdftex.def Info: /Users/albertopeinador/Desktop/Master/termicas/P.pdf  used on input line 155.
 (pdftex.def)             Requested size: 226.19933pt x 193.88991pt.
+
+
+pdfTeX warning: pdflatex (file /Users/albertopeinador/Desktop/Master/termicas/FOM.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+</Users/albertopeinador/Desktop/Master/termicas/FOM.pdf, id=332, 433.62pt x 433.62pt>
+File: /Users/albertopeinador/Desktop/Master/termicas/FOM.pdf Graphic file (type pdf)
+<use /Users/albertopeinador/Desktop/Master/termicas/FOM.pdf>
+Package pdftex.def Info: /Users/albertopeinador/Desktop/Master/termicas/FOM.pdf  used on input line 163.
+(pdftex.def)             Requested size: 226.19933pt x 226.19827pt.
+
+Overfull \hbox (24.40564pt too wide) in paragraph at lines 169--181
+ [][] 
+ []
+
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 219.
+(babel)             in language  on input line 247.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 219.
+(babel)             in language  on input line 247.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 219.
+(babel)             in language  on input line 247.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 219.
+(babel)             in language  on input line 247.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 219.
+(babel)             in language  on input line 247.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 219.
+(babel)             in language  on input line 247.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 219.
+(babel)             in language  on input line 247.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 219.
+(babel)             in language  on input line 247.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 219.
+(babel)             in language  on input line 247.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 219.
+(babel)             in language  on input line 247.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 219.
+(babel)             in language  on input line 247.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 219.
- [5 </Users/albertopeinador/Desktop/Master/termicas/ip.pdf> </Users/albertopeinador/Desktop/Master/termicas/P.pdf>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 219.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 219.
+(babel)             in language  on input line 247.
+[5 </Users/albertopeinador/Desktop/Master/termicas/ip.pdf> </Users/albertopeinador/Desktop/Master/termicas/P.pdf> </Users/albertopeinador/Desktop/Master/termicas/FOM.pdf>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 247.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 247.
  (/Users/albertopeinador/Desktop/Master/termicas/memoria.aux
 LaTeX Info: Redefining \. on input line 23.
 LaTeX Info: Redefining \% on input line 23.
 Package cleveref Info: loaded `spanish' language definitions on input line 23.
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 219.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 219.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 247.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 247.
 Package rerunfilecheck Info: File `memoria.out' has not changed.
 (rerunfilecheck)             Checksum: EAAD26146152F1BC240829DD048AF734;226.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 219.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 247.
  ) 
 Here is how much of TeX's memory you used:
- 24962 strings out of 492649
- 476459 string characters out of 6129622
- 601014 words of memory out of 5000000
- 28371 multiletter control sequences out of 15000+600000
+ 24981 strings out of 492649
+ 477115 string characters out of 6129622
+ 609014 words of memory out of 5000000
+ 28385 multiletter control sequences out of 15000+600000
  10621 words of font info for 39 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,11n,92p,707b,613s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,11n,92p,709b,613s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/inconsolata/i4-ot1-0.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on /Users/albertopeinador/Desktop/Master/termicas/memoria.pdf (5 pages, 266154 bytes).
+Output written on /Users/albertopeinador/Desktop/Master/termicas/memoria.pdf (5 pages, 304340 bytes).
 PDF statistics:
- 405 PDF objects out of 1000 (max. 8388607)
- 217 compressed objects within 3 object streams
- 30 named destinations out of 1000 (max. 500000)
- 82 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 472 PDF objects out of 1000 (max. 8388607)
+ 281 compressed objects within 3 object streams
+ 33 named destinations out of 1000 (max. 500000)
+ 92 words of extra memory for PDF output out of 10000 (max. 10000000)
 

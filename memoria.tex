@@ -89,8 +89,13 @@ Tanto en las \Cref{fig:param1,fig:Pr2} se aprecia la disminución de tanto el ca
 
 Retomando los resultados resumidos en la \Cref{tab:Pr_ej1}, se observa que los ciclos del TGS están bastante centrados, ya que los valores son bastante independientes del sentido en que se midan.\\
 Por otra banda, el LATGS sí presenta un desplazamiento, al menos, en el campo eléctrico. Este desplazamiento es de $\Delta E = 394.6\ V\ cm^{-1}$ hacia el sentido negativo del campo. Este desplazamiento se explica como un campo eléctrico interno generado en el material.\\
-En cuanto al desplazamiento vertical del ciclo no es correcto calcularlo con la polarización remanente recogida en la \Cref{tab:Pr_ej1}, puesto que $\Delta E$ provoca una disminución (en valor absoluto) de la polarización remanente negativa. Para obtener este desplazamiento, lo más correcto es utilizar la polarización de saturación. Los valores de polarización de saturación se obtienen buscando el máximo y el mínimo del ciclo; los valores obtenidos han sido: $P_{sat,\ (-)} = -1.755\ \mu C\ cm^{-2}$ y $P_{sat,\ (+)} = 1.577\ \mu C\ cm^{-2}$. Resultando un desplazamiento de $\Delta P = -0.178\ \mu C\ cm^{-2}$.
-
+En cuanto al desplazamiento vertical del ciclo no es correcto calcularlo con la polarización remanente recogida en la \Cref{tab:Pr_ej1}, puesto que $\Delta E$ provoca una disminución (en valor absoluto) de la polarización remanente negativa. Para obtener este desplazamiento, lo más correcto es utilizar la polarización de saturación. Los valores de polarización de saturación se obtienen buscando el máximo y el mínimo del ciclo; los valores obtenidos han sido: $P_{sat,\ (-)} = -1.755\ \mu C\ cm^{-2}$ y $P_{sat,\ (+)} = 1.577\ \mu C\ cm^{-2}$. Resultando un desplazamiento de $\Delta P = -0.178\ \mu C\ cm^{-2}$.\\
+Si en lugar de la polarización de saturación usamos la polarización espontánea, obtenida mediante un ajuste lineal a los extremos de los ciclos (\Cref{fig:P_s}), se calcula un desplazamiento de de $\Delta P = -0.228\ \mu C\ cm^{-2}$
+\begin{figure}[H]
+    \centering
+    \includegraphics[width = \linewidth]{/Users/albertopeinador/Desktop/Master/termicas/Ps.pdf}
+    \caption{Cálculo de la polarización espontánea para las muestras TGS y LATGS medidas a una temperatura de 310 K.}\label{fig:P_s}
+\end{figure}
 \section{Práctica 2: constante dieléctrica.}
 \subsection*{Constante dieléctrica}
 En la \Cref{fig:eps} se representa la constante dieléctrica calculada con la \cref{eq:eps}. Se perciben diferencias notables entre las dos muestras. El TGS puro presenta un pico muy pronunciado en la temperatura de Curie ($T_c\approx 322\ K$), por simple inspección parece que esta temperatura se desplaza, buscando el máximo de ambas curvas, se encuentra una diferencia de aproximadamente $0.3\ K$.\\
@@ -101,7 +106,7 @@ Las diferencias principales que se encuentran entre las dos curvas son el ancho 
 \end{eqnarray}
 \begin{figure}[H]
     \centering
-    \includegraphics[width = \linewidth]{/Users/albertopeinador/Desktop/Master/termicas/ctedie.pdf}
+    \includegraphics[width = \linewidth]{/Users/albertopeinador/Desktop/Master/termicas/ctedie_2.pdf}
     \caption{Constante dieléctrica de TGS (negro) y LATGS (rojo) con la escala reajustada.}\label{fig:eps}
 \end{figure}
 \subsection*{Ley de Curie-Weiss y teoría de Landau}
@@ -151,6 +156,29 @@ Con los datos proporcionados se calcula el coeficiente piroeléctrica ($\pi$) me
     \caption{Polarización calculada por integración del coeficiente piroeléctrico junto con la corriente piroeléctrica.}\label{fig:pol}
 \end{figure}
 \subsection*{Figura piroeléctrica de mérito}
+La figura de mérito es una medida del rendimiento del material en ciertas aplicaciones. A continuación, se calcula y representa (\Cref{fig:FOM}) la figura piroeléctrica de mérito del TGS a ciertas temperaturas. Los resultados están recogidos en la \Cref{tab:FOM}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width = \linewidth]{/Users/albertopeinador/Desktop/Master/termicas/FOM.pdf}
+    \caption{Figura piroeléctrica de mérito del TGS a varias temperaturas.}\label{fig:FOM}
+\end{figure}
+\begin{table}[H]
+    \centering
+    \caption{Valores calculados y usados en la representación de la \Cref{fig:FOM}. $\pi$ en $C\ K^{-1}\ cm^{-2}$, $c^V$ en $J\ K^{-1}\ m^{-3}$ y $F_v$ en $V\ m^2\ J^{-1}$}\label{tab:FOM}
+\begin{tabular}{ccccc}
+    \toprule
+       T / K &         $\pi$ &  $\varepsilon$ &      $c^V$ &     $F_v$ \\\midrule
+  310,0 & -3,24e-08 &    212,5 &  2263755,0 & -0,076 \\
+  312,0 & -4,32e-08 &    231,2 &  2289865,5 & -0,092 \\
+  314,0 & -4,16-08 &    259,6 &  2316533,7 & -0,078 \\
+  316,0 & -4,96e-08 &    303,9 &  2350181,6 & -0,078 \\
+  318,0 & -6,25e-08 &    390,0 &  2404177,1 & -0,075 \\
+  320,0 & -8,43e-08 &    631,6 &  2461282,2 & -0,061 \\
+  321,0 & -1,01e-07 &   1057,9 &  2506489,7 & -0,043\\
+    \bottomrule
+    \end{tabular}
+\end{table}
 %     ###################    (SUB)TABLES EXAMPLES      ###################
 
 
