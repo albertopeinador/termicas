@@ -90,6 +90,67 @@ Tanto en las \Cref{fig:param1,fig:Pr2} se aprecia la disminución de tanto el ca
 Retomando los resultados resumidos en la \Cref{tab:Pr_ej1}, se observa que los ciclos del TGS están bastante centrados, ya que los valores son bastante independientes del sentido en que se midan.\\
 Por otra banda, el LATGS sí presenta un desplazamiento, al menos, en el campo eléctrico. Este desplazamiento es de $\Delta E = 394.6\ V\ cm^{-1}$ hacia el sentido negativo del campo. Este desplazamiento se explica como un campo eléctrico interno generado en el material.\\
 En cuanto al desplazamiento vertical del ciclo no es correcto calcularlo con la polarización remanente recogida en la \Cref{tab:Pr_ej1}, puesto que $\Delta E$ provoca una disminución (en valor absoluto) de la polarización remanente negativa. Para obtener este desplazamiento, lo más correcto es utilizar la polarización de saturación. Los valores de polarización de saturación se obtienen buscando el máximo y el mínimo del ciclo; los valores obtenidos han sido: $P_{sat,\ (-)} = -1.755\ \mu C\ cm^{-2}$ y $P_{sat,\ (+)} = 1.577\ \mu C\ cm^{-2}$. Resultando un desplazamiento de $\Delta P = -0.178\ \mu C\ cm^{-2}$.
+
+\section{Práctica 2: constante dieléctrica.}
+\subsection*{Constante dieléctrica}
+En la \Cref{fig:eps} se representa la constante dieléctrica calculada con la \cref{eq:eps}. Se perciben diferencias notables entre las dos muestras. El TGS puro presenta un pico muy pronunciado en la temperatura de Curie ($T_c\approx 322\ K$), por simple inspección parece que esta temperatura se desplaza, buscando el máximo de ambas curvas, se encuentra una diferencia de aproximadamente $0.3\ K$.\\
+Las diferencias principales que se encuentran entre las dos curvas son el ancho e intensidad del pico. El LATGS presenta un pico mucho más ancho y un orden de magnitud más bajo que el de TGS. Este ancheamiento es útil en el diseño de sensores, ya que producirá una señal más estable en las proximidades del pico.
+
+\begin{eqnarray}
+    \varepsilon = \frac{C\ d}{\varepsilon_0\ S} \label{eq:eps}
+\end{eqnarray}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width = \linewidth]{/Users/albertopeinador/Desktop/Master/termicas/ctedie.pdf}
+    \caption{Constante dieléctrica de TGS (negro) y LATGS (rojo) con la escala reajustada.}\label{fig:eps}
+\end{figure}
+\subsection*{Ley de Curie-Weiss y teoría de Landau}
+La ley de Curie-Weiss \cref{eq:cw} predice una relación lineal entre la inversa de la constante dieléctrica y la temperatura.
+\begin{eqnarray}
+    \frac{1}{\varepsilon} = \frac{T}{C_{CW}}-\frac{T_c}{C_{CW}}\label{eq:cw}
+\end{eqnarray}
+En la \Cref{fig:cw} se representa la inversa de $\varepsilon$ junto con un ajuste lineal por mínimos cuadrados que permite calcular la constante de Curie-Weiss ($C_{CW}$) y la temperatura de Curie ($T_c$)
+\begin{figure}[H]
+    \centering
+    \includegraphics[width = \linewidth]{/Users/albertopeinador/Desktop/Master/termicas/cw.pdf}
+    \caption{Comprobación de la ley de Curie-Weiss para la muestra de TGS.}\label{fig:cw}
+\end{figure}
+
+Por comparación con la \cref{eq:cw}, se calculan $C_{CW}$ y $T_c$ a partir de los parámetros de ajuste.\begin{eqnarray}
+    C_{CW} = 3305.6\ K\\
+    T_c = 321.7\ K
+\end{eqnarray}
+Por otro lado, la teoría de Landau predice una relación lineal también en el régimen ferroeléctrico ($T<T_c$). Donde la pendiente sería el doble de la pendiente de la \Cref{fig:cw} (en negativo). Haciendo el ajuste (\Cref{fig:l}) se comprueba que este no es el caso con nuestra muestra. Esta desviación puede deberse a efectos producidos por la formación de polidominios.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width = \linewidth]{/Users/albertopeinador/Desktop/Master/termicas/l.pdf}
+    \caption{Comprobación de la teoría de Landau para la muestra de TGS. Los puntos más alejados de $T_c$ sí parece que pudieran formar una recta, también en las proximidades muy cercanas a $T_c$. Estas dos regiones se ajustan en la \Cref{fig:l_2}}\label{fig:l}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width = \linewidth]{/Users/albertopeinador/Desktop/Master/termicas/l_2fit.pdf}
+    \caption{Ajustes por zonas de la región ferroeléctrica. De la zona cercana a $T_c$ resulta una pendiente cercana al doble de la \Cref{fig:cw}, mientras que en la zona lejana la pendiente es menor que la de Curie Weiss.}\label{fig:l_2}
+\end{figure}
+
+\section{Práctica 3: coeficiente piroeléctrico}
+\subsection*{Corriente piroeléctrica y polarización}
+En primer lugar se representa la corriente piroeléctrica generada por la muestra frente a la temperatura(\Cref{fig:ip}).
+\begin{figure}[H]
+    \centering
+    \includegraphics[width = \linewidth]{/Users/albertopeinador/Desktop/Master/termicas/ip.pdf}
+    \caption{Corriente piroeléctrica generada frente a la temperatura.}\label{fig:ip}
+\end{figure}
+Con los datos proporcionados se calcula el coeficiente piroeléctrica ($\pi$) mediante la \cref{eq:pi}. Al integrar numéricamente en función a la temperatura (con el método de los trapecios), nos permite obtener los valores de polarización, representados en la \Cref{fig:pol}.
+\begin{eqnarray}
+    \pi = \frac{i_p}{r\ S}\label{eq:pi}
+\end{eqnarray}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width = \linewidth]{/Users/albertopeinador/Desktop/Master/termicas/P.pdf}
+    \caption{Polarización calculada por integración del coeficiente piroeléctrico junto con la corriente piroeléctrica.}\label{fig:pol}
+\end{figure}
+\subsection*{Figura piroeléctrica de mérito}
 %     ###################    (SUB)TABLES EXAMPLES      ###################
 
 
