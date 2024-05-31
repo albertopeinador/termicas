@@ -278,12 +278,11 @@ INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/inconsolata/ot1zi4.fd
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/inconsolata/ot1zi4.fd
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/inconsolata/ot1-zi4r-0.tfm
-INPUT /Users/albertopeinador/Desktop/Master/termicas/E-t.pdf
-INPUT /Users/albertopeinador/Desktop/Master/termicas/E-t.pdf
-INPUT /Users/albertopeinador/Desktop/Master/termicas/E-t.pdf
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmti12.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmbxti10.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
@@ -302,6 +301,9 @@ INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/jknapltx/ursfs.fd
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/rsfs/rsfs5.tfm
+INPUT /Users/albertopeinador/Desktop/Master/termicas/E-t.pdf
+INPUT /Users/albertopeinador/Desktop/Master/termicas/E-t.pdf
+INPUT /Users/albertopeinador/Desktop/Master/termicas/E-t.pdf
 INPUT /Users/albertopeinador/Desktop/Master/termicas/Pr.pdf
 INPUT /Users/albertopeinador/Desktop/Master/termicas/Pr.pdf
 INPUT /Users/albertopeinador/Desktop/Master/termicas/Pr.pdf
@@ -313,8 +315,6 @@ INPUT /Users/albertopeinador/Desktop/Master/termicas/Pr_2.pdf
 INPUT /Users/albertopeinador/Desktop/Master/termicas/Ps.pdf
 INPUT /Users/albertopeinador/Desktop/Master/termicas/Ps.pdf
 INPUT /Users/albertopeinador/Desktop/Master/termicas/Ps.pdf
-INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
-INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /Users/albertopeinador/Desktop/Master/termicas/ctedie_2.pdf
 INPUT /Users/albertopeinador/Desktop/Master/termicas/ctedie_2.pdf
 INPUT /Users/albertopeinador/Desktop/Master/termicas/ctedie_2.pdf

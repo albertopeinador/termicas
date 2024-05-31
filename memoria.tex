@@ -48,17 +48,14 @@ Universidad de Sevilla,\\
 
 \begin{multicols}{2}
 \section{Práctica 1: ciclo de histéresis.}
+\subsection*{Respuesta temporal y parámetros característicos}\label{sec:p1_1}
 En la \Cref{fig:t} se representan los resultados de campo eléctrico y polarización con respecto al tiempo.
-En ellos se ve como en todos los casos el campo eléctrico se mantiene independiente de la temperatura. La polarización si que tiene un respuesta diferente según la temperatura.\\
-A temperatura baja la forma de la curva es muy similar a la del campo eléctrico. Se podría decir que son proporcionales, lo que concuerda con un régimen paraeléctrico. A temperaturas mayores, la polarización aumenta rápidamente en tiempos en los que el campo eléctrico es bajo hasta que llega a saturar. En el punto intermedio (\texttt{C6.DAT}) se puede percibir una combinación de ambas curvas.
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width = \linewidth]{/Users/albertopeinador/Desktop/Master/termicas/E-t.pdf}
-    \caption{Campo eléctrico y polarización como función del tiempo a distintas temperaturas.}\label{fig:t}
-\end{figure}
+En ellos se ve como en todos los casos, el campo eléctrico se mantiene independiente de la temperatura, lo cual es esperable, ya que este solo depende del potencial que se aplique y el espesor de la muestra.\\
+En cuanto a la polarización, temperatura alta la forma de la curva es muy similar a la del campo eléctrico. Esto concuerda con un régimen paraeléctrico. A temperaturas menores, la polarización aumenta rápidamente en tiempos en los que el campo eléctrico es bajo hasta que llega a saturar, coincidiendo con la descripción de un ferroeléctrico. En el punto intermedio (\texttt{C6.DAT}) se puede percibir una combinación de ambas curvas.\\
 La polarización remanente es la polarización cuando el campo eléctrico es nulo, mientras que el campo coercitivo es el campo eléctrico al que se anula la polarización. Para obtener estos parámetros se busca en los datos estos puntos, o en su defecto los más cercanos.\\
-También se han tomado datos en ambas regiones: campo coercitivo y polarización remanente en ambos sentidos. 
+También se han tomado datos en ambas regiones: campo coercitivo y polarización remanente en ambos sentidos.\\
+Los valores para el TGS se representan en la \Cref{fig:param1}, junto a ellas se representa también el cuadrado de la polarización remanente, que según la teoría de Landau debería ser lineal con la temperatura. Sin embargo, con tan solo estos 3 puntos, parece no serlo en este rango de temperaturas. Si hacemos este mismo análisis con todas las curvas proporcionadas (\Cref{fig:Pr2}) se comprueba que sí existe un régimen lineal.
+
 \begin{table}[H]
     \centering
     \caption{Valores de $P_r$ y $E_c$ recogidos tanto para el TGS como para LATGS, calculados tomando la media entre los tres puntos más cercanos. Los valores se presentan en con las mismas unidades que en la \Cref{fig:t} y la temperatura en Kelvin.}\label{tab:Pr_ej1}
@@ -74,7 +71,13 @@ También se han tomado datos en ambas regiones: campo coercitivo y polarización
     & (-) &$310$&$-1.105$&$-1213.2$\\ \bottomrule     
     \end{tabular}
 \end{table}
-Los valores para el TGS se representan en la \Cref{fig:param1}, junto a ellas se representa también el cuadrado de la polarización remanente, que según la teoría de Landau debería ser lineal con la temperatura. Sin embargo, como se ve con tan solo estos 3 puntos, parece no serlo en este rango de temperaturas. Si hacemos este mismo análisis con todas las curvas proporcionadas (\Cref{fig:Pr2}) se comprueba que sí existe un régimen lineal.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width = \linewidth]{/Users/albertopeinador/Desktop/Master/termicas/E-t.pdf}
+    \caption{Campo eléctrico y polarización como función del tiempo a distintas temperaturas.}\label{fig:t}
+\end{figure}
+
 \begin{figure}[H]
     \centering
     \includegraphics[width = \linewidth]{/Users/albertopeinador/Desktop/Master/termicas/Pr.pdf}
@@ -86,16 +89,23 @@ Tanto en las \Cref{fig:param1,fig:Pr2} se aprecia la disminución de tanto el ca
     \includegraphics[width = \linewidth]{/Users/albertopeinador/Desktop/Master/termicas/Pr_2.pdf}
     \caption{Mismo análisis que el de la \Cref{fig:param1} incluyendo todas las temperaturas}\label{fig:Pr2}
 \end{figure}
-
+\subsection*{Asimetría en el ciclo LATGS}
 Retomando los resultados resumidos en la \Cref{tab:Pr_ej1}, se observa que los ciclos del TGS están bastante centrados, ya que los valores son bastante independientes del sentido en que se midan.\\
 Por otra banda, el LATGS sí presenta un desplazamiento, al menos, en el campo eléctrico. Este desplazamiento es de $\Delta E = 394.6\ V\ cm^{-1}$ hacia el sentido negativo del campo. Este desplazamiento se explica como un campo eléctrico interno generado en el material.\\
 En cuanto al desplazamiento vertical del ciclo no es correcto calcularlo con la polarización remanente recogida en la \Cref{tab:Pr_ej1}, puesto que $\Delta E$ provoca una disminución (en valor absoluto) de la polarización remanente negativa. Para obtener este desplazamiento, lo más correcto es utilizar la polarización de saturación. Los valores de polarización de saturación se obtienen buscando el máximo y el mínimo del ciclo; los valores obtenidos han sido: $P_{sat,\ (-)} = -1.755\ \mu C\ cm^{-2}$ y $P_{sat,\ (+)} = 1.577\ \mu C\ cm^{-2}$. Resultando un desplazamiento de $\Delta P = -0.178\ \mu C\ cm^{-2}$.\\
-Si en lugar de la polarización de saturación usamos la polarización espontánea, obtenida mediante un ajuste lineal a los extremos de los ciclos (\Cref{fig:P_s}), se calcula un desplazamiento de de $\Delta P = -0.228\ \mu C\ cm^{-2}$
+Si en lugar de la polarización de saturación usamos la polarización espontánea, obtenida mediante un ajuste lineal a los extremos de los ciclos (\Cref{fig:P_s}), se calcula un desplazamiento de de $\Delta P = -0.228\ \mu C\ cm^{-2}$. El hecho dde que sean diferentes los desplazamientos según qué parámetro de referencia escojamos no debería sorprender, principalmente por dos motivos: el desplazamiento en $E$ puede tener también repercusión sobre $P_s$ y puede implicar que no se llegue del todo a la saturación. En este caso, que el desplazamiento calculado por las polarizaciones de saturación sea menor (en valor absoluto) que el calculado por polarización espontánea puede ser un indicio de que no se esté alcanzando la misma polarización que para campos positivos.
 \begin{figure}[H]
     \centering
     \includegraphics[width = \linewidth]{/Users/albertopeinador/Desktop/Master/termicas/Ps.pdf}
     \caption{Cálculo de la polarización espontánea para las muestras TGS y LATGS medidas a una temperatura de 310 K.}\label{fig:P_s}
 \end{figure}
+Otra manera de corregir esto sería aplicar una corrección al campo, centrando el ciclo en $E$ para calcular el desplazamiento por una polarización remanente corregida al campo interno del material. Mediante este método el desplazamiento calculado ha sido de $\Delta P_r = -0.326$. Es el mayor pero es el único método que no se ve afectado por el desplazamiento en $E$, ya que como se discutió anteriormente, los otros dos métodos están comprometidos.
+%\begin{figure}[H]
+%    \centering
+%    \includegraphics[width = \linewidth]{/Users/%albertopeinador/Desktop/Master/termicas/Ps.pdf}
+%    \caption{Cálculo de la polarización espontánea para %las muestras TGS y LATGS medidas a una temperatura de %310 K.}\label{fig:P_s}
+%\end{figure}
+Por último en las instrucciones para esta memoria se dibujan ciclos para el LATGS a más temperaturas. En ellos se aprecia un desplazamiento del ciclo hacia el lado positivo del campo. El sentido en que se desplace el signo tan solo es indicativo del sentido en el que se colocó la muestra \textit{boca abajo}.El desplazamiento a la derecha es lo suficientemente significativo como para que  a simple vista se vea cómo no se alcanza la saturación.\\ Para mejorar estos resultados sería necesario tomar medidas a mayor campo. Para conseguir hacer esto, como se mencionó en el \cref{sec:p1_1}, el campo solo depende del potencial y del espesor, así que sería necesario o aplicar un potencial mayor o preparar una muestra más fina.
 \section{Práctica 2: constante dieléctrica.}
 \subsection*{Constante dieléctrica}
 En la \Cref{fig:eps} se representa la constante dieléctrica calculada con la \cref{eq:eps}. Se perciben diferencias notables entre las dos muestras. El TGS puro presenta un pico muy pronunciado en la temperatura de Curie ($T_c\approx 322\ K$), por simple inspección parece que esta temperatura se desplaza, buscando el máximo de ambas curvas, se encuentra una diferencia de aproximadamente $0.3\ K$.\\
